@@ -1,0 +1,49 @@
+.recipe-list {
+  flex: 1;
+}
+
+.recipe-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #e9d5ff;
+}
+
+.recipe-list-header h2 {
+  color: #7c3aed;
+  font-size: 2em;
+  margin: 0;
+}
+
+.recipe-count {
+  background: #f3e8ff;
+  color: #7c3aed;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: #7c3aed;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(124, 58, 237, 0.15);
+}
+
+.empty-state p {
+  color: #6b7280;
+  font-size: 1.2em;
+  margin: 0;
+}
